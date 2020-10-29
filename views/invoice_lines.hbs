@@ -1,0 +1,8 @@
+<h2>Invoice Lines</h2>
+<ul>
+  {{#if show}}
+    {{#each Invoice_Lines}
+      <li class={{this.id}}>{{this.title}}</li>
+    {{/each}}
+  {{/if}}
+</ul>

@@ -1,0 +1,8 @@
+<h2>Tracks List</h2>
+<ul>
+  {{#if show}}
+    {{#each Tracks}}
+      <li class={{this.id}}>{{this.title}}</li>
+    {{/each}}
+  {{/if}}
+</ul>

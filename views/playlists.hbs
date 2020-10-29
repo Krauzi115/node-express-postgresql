@@ -1,0 +1,8 @@
+<h2>Playlist List</h2>
+<ul>
+  {{#if show}}
+    {{#each playlists}}
+      <li class={{this.id}}>{{this.title}}</li>
+    {{/each}}
+  {{/if}}
+</ul>
